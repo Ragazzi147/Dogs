@@ -19,7 +19,7 @@ export function USER_GET(token) {
     options: {
       method: 'GET',
       headers: {
-        Authorization: 'Bearer' + token,
+        Authorization: 'Bearer ' + token,
       },
     },
   };
