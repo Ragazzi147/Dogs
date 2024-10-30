@@ -14,7 +14,7 @@ const UserHeaderNav = () => {
   const navigate = useNavigate();
 
   function handleLogout() {
-    userLogout;
+    userLogout();
     navigate('/login');
   }
 
