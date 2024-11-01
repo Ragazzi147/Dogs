@@ -57,8 +57,8 @@ export function PHOTO_POST(formData, token) {
       method: 'POST',
       headers: {
         Authorization: 'Bearer ' + token,
+        body: formData,
       },
-      body: formData,
     },
   };
 }
@@ -80,5 +80,18 @@ export function PHOTO_GET(id) {
       method: 'GET',
       cache: 'no-store',
     },
+  };
+}
+export function COMMENT_POST(id, body) {
+  return {
+    url: API_URL + `/api/comment/${id}`,
+    options: {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: 'Bearer ' + window.localStorage.getItem('token'),
+      },
+    },
+    body: JSON.stringify(body),
   };
 }
