@@ -4,6 +4,7 @@ import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
   plugins: [
+    {},
     react(),
     svgr({
       exportAsDefault: false, // Certifique-se de que exportAsDefault está como false
