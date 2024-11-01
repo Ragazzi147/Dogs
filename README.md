@@ -1,6 +1,6 @@
 Este é um Projeto feito em React + Javascript (No momento estou trabalhando nele mas logo estará pronto.. )
 
-A api é no momento estou usando uma publica da Origamid
+A api é no momento estou usando uma Wordpress
 
 Se desejar rodar baixe e use npm install e npm run dev
 
