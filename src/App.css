@@ -100,3 +100,7 @@ a{
 .AppBody {
   flex: 1;
 }
+
+.VictoryCOntainer{
+  height: initial !important;
+}
