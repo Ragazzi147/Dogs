@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   padding-top: 4rem;
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: 'Spectral', georgia;
+  --type-second: 'Spectral', Georgia;
   font-family: var(--type-first);
 }
 
@@ -16,7 +17,7 @@ h1,
 h2,
 h3,
 h4,
-p{
+p {
   margin: 0px;
 }
 
@@ -29,34 +30,34 @@ li {
 
 img {
   display: block;
-  max-width:100%;
+  max-width: 100%;
 }
 
 button,
-input{
+input {
   display: block;
   font-size: 1rem;
   font-family: var(--type-first);
   color: #333;
 }
 
-a{
+a {
   text-decoration: none;
   color: #333;
 }
 
-.container{
+.container {
   max-width: 50rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
 
-.mainContainer{
+.mainContainer {
   margin-top: 2rem;
 }
 
-.title{
-  font-family:  var(--type-second);
+.title {
+  font-family: var(--type-second);
   line-height: 1;
   font-size: 3rem;
   margin: 1rem 0;
@@ -64,7 +65,7 @@ a{
   z-index: 1;
 }
 
-.title::after{
+.title::after {
   content: '';
   display: block;
   width: 1.5rem;
@@ -77,30 +78,29 @@ a{
   z-index: -1;
 }
 
-.animeLeft{
+.animeLeft {
   opacity: 0;
   transform: translateX(-20px);
-  animation: animeLeft .3s forwards;
+  animation: animeLeft 0.3s forwards;
 }
 
-@keyframes animeLeft{
-  to{
+@keyframes animeLeft {
+  to {
     opacity: 1;
     transform: initial;
   }
 }
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh + 10rem);
- 
 }
 
 .AppBody {
   flex: 1;
 }
 
-.VictoryCOntainer{
+.VictoryContainer {
   height: initial !important;
 }
