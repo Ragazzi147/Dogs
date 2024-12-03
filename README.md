@@ -2,4 +2,4 @@ Este é um Projeto feito em React + Javascript com uma biblioteca externa de dad
 
 A api é no momento estou usando uma Wordpress
 
-dogs-one-xi.vercel.app
+https://dogs-one-xi.vercel.app
